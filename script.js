@@ -1,4 +1,4 @@
-
+//BubbleSortArray
 var arr = [ 12, -6, 8, 91, 105, 35, 22];
 console.log(arr);
 
@@ -19,8 +19,8 @@ function sortArr(array){
 }
 var sorted = sortArr(arr);
 console.log(sorted);
-
-
+//---------------------------------------------------------------------------------------------------------------------------------------
+//String - 1st letter toUpperCase
 var str = 'is home to over 31 million developers working together to host and review code, manage projects, and build software together.';
 var srtUp = str[0].toUpperCase() + str.substr(1);
 console.log(srtUp);
